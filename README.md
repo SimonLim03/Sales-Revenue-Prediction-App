@@ -1,4 +1,4 @@
-# Flight Fare Prediction App
+# Sales Revenue Prediction Application (Predictive and Forecasting)
 
 ## Author
 Name: Simon Lim
