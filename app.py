@@ -26,7 +26,7 @@ project_description = {
         "month",
         "day"
     ],
-    "input_parameters (Predictive Model)": [
+    "input_parameters (Forecasting Model)": [
         "specific_date",
         "days"
     ],
