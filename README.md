@@ -1,57 +1,51 @@
-adv_mla_at2
-==============================
+# Flight Fare Prediction App
 
-This is a proejct for predicting the sales revenue using Machine Learning algorithm and deploying into production as API
+## Author
+Name: Simon Lim
 
-Project Organization
-------------
-
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+## Description
+This application is a machine learning product, which can predict the expected flight fare for different airport trips. 
+In particular, this project split the travel airfare into 4 different fares, including minimum, median, modal and mean of airfare
+Together, these metrics aim to provide a comprehensive overview of potential fares to users.
+To enable model’s access to users, Docker and Streamlit were used for model deployment, enabling users to use the models as a application.
 
 
---------
+## How to Run the Program
+Execute the following steps to run the app:
+- URL link: https://flight-fare-prediction-app-b5ff94ahafghdb9bxwllf5.streamlit.app/
+- Fill in the input form and hit submit!
+![image](https://github.com/SimonLim03/Flight-Fare-Prediction-App/assets/150989115/fd3c49b7-088a-4dba-846a-038d784f1ae5)
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+## Project Structure
+<p>
+/models: This folder contains model artefacts that were used to predict travel fares.
+</p>
+
+<p>
+/notebooks: All the notebooks containing codes, preparation, EDA and precedures. 
+</p>
+
+<p>
+/raw: Initial datasets.
+</p>
+
+<p>
+/report: Experimental report
+</p>
+
+<p>
+/src: Storage of functions used in experiments
+</p>
+
+## Input Parameters
+
+| Input | Description | 
+|:------------:|:------------:|
+| Origin Airport | Three-character IATA airport code for the initial location | 
+| Destination Airport | Three-character IATA airport code for the arrival location | 
+| Cabin | String containing the cabin type of the flight (e.g. coach, premium coach, business) |
+| Day | Day of Month (i.e., bewteen 1 and 31) |
+| Month | Month of Year (e.g., January, December) | 
+| Year | Year in yyyy format | Andrew Fuller |
+| Departure Time | String containing the departure time period (e.g., Early morining, morning, afternoon, night) | 
