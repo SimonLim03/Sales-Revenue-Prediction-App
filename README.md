@@ -53,14 +53,20 @@ Execute the following steps to run the app:
 /src: Storage of functions used in experiments
 </p>
 
-## Input Parameters
+## Input Parameters (Predictive Model, /sales/stores/items/)
 
 | Input | Description | 
 |:------------:|:------------:|
-| Origin Airport | Three-character IATA airport code for the initial location | 
-| Destination Airport | Three-character IATA airport code for the arrival location | 
-| Cabin | String containing the cabin type of the flight (e.g. coach, premium coach, business) |
+| idem_id | item id of the specific item (e.g., HOBBIES_1_001) | 
+| store_id | store id of the item (e.g., CA_1 , WI_3) | 
 | Day | Day of Month (i.e., bewteen 1 and 31) |
-| Month | Month of Year (e.g., January, December) | 
-| Year | Year in yyyy format | Andrew Fuller |
-| Departure Time | String containing the departure time period (e.g., Early morining, morning, afternoon, night) | 
+| Month | Month of Year in string format (e.g., January, December) | 
+| Year | Year in yyyy format |
+
+## Input Parameters (Forecasting Model, /sales/national/)
+
+| Input | Description | 
+|:------------:|:------------:|
+| specific date | specific date in format yyyy-mm-dd (e.g., 2023-01-01) | 
+| days | forecasting next days (e.g., 7 if forecasting next 7 days, 10 if foreacsting next 10 days) | 
+
