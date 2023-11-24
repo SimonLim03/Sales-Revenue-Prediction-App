@@ -34,8 +34,13 @@ Execute the following steps to run the app:
 - http://localhost:8000/docs/ : Runnining the application
 - /sales/stores/items/ : Predictive Model (predict the sales revenue for a given item in a specific store at a given date)
   ![image](https://github.com/SimonLim03/Sales-Revenue-Prediction-App/assets/150989115/4c3d058b-e697-465e-9d27-7c49ecc8abc1)
+  ![image](https://github.com/SimonLim03/Sales-Revenue-Prediction-App/assets/150989115/f57fcd2f-71e3-4850-9a85-0db2f35b4290)
+
 - /sales/national/ : Forecasting Model (forecast the total sales revenue across all stores and items for the next 7 days)
-  ![image](https://github.com/SimonLim03/Sales-Revenue-Prediction-App/assets/150989115/872d1cb1-fcc7-4dc7-a39a-5939eca40a3b)
+  ![image](https://github.com/SimonLim03/Sales-Revenue-Prediction-App/assets/150989115/0372871a-b4b9-4739-affb-e98c105b1595)
+  ![image](https://github.com/SimonLim03/Sales-Revenue-Prediction-App/assets/150989115/6127decd-f02a-4636-995e-dd515e0d3bbd)
+
+
 
 
 
