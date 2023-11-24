@@ -9,6 +9,12 @@ One model is a predictive model using a Machine Learning algorithm to accurately
 The other is a forecasting model using a time-series analysis that can forecast the total sales revenue across all stores and items for the next 7 days.
 The models have been deployed using Fastapi, Docker and Heroku, which enable modle's access to users online anytime. 
 
+The American retailer that has 10 stores across 3 different states (California (CA), Texas (TX), 
+Wisconsin (WI)) sells a variety of items from 3 different categories, including hobbies, foods and 
+household. The retailer has a large of amount of data for each item’s selling price, sales revenue 
+and quantity of sales records across stores and dates. In this regard, machine learning and timeseries models can be potentially helpful in a variety of ways by predicting the sales revenue for a 
+specific item and forecasting the total revenues for next few days
+
 ![image](https://github.com/SimonLim03/Sales-Revenue-Prediction-App/assets/150989115/02d39b0d-4080-41c4-afea-ac6e15b2998e)
 
 
