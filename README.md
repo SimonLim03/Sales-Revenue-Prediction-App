@@ -7,7 +7,7 @@ Name: Simon Lim
 This application involves two machine learning models that were established for business purposes.
 One model is a predictive model using a Machine Learning algorithm to accurately predict the sales revenue for a given item in a specific store at a given date.
 The other is a forecasting model using a time-series analysis that can forecast the total sales revenue across all stores and items for the next 7 days.
-The models have been deployed using Fastapi, Docker and Heroku, which enable modle's access to users online anytime. 
+The models have been deployed using Fastapi, Docker and Heroku, which enable models' access to users online anytime. 
 
 The American retailer that has 10 stores across 3 different states (California (CA), Texas (TX), 
 Wisconsin (WI)) sells a variety of items from 3 different categories, including hobbies, foods and 
