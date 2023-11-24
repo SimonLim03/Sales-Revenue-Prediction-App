@@ -19,10 +19,21 @@ specific item and forecasting the total revenues for next few days
 
 
 ## How to Run the Program
+The application was available online via Heroku, but currently it has been shut down due to monthly costs.
+However, there is the other way to run the application. Docker and Fastapi were used to run the application.
+
 Execute the following steps to run the app:
-- URL link: https://flight-fare-prediction-app-b5ff94ahafghdb9bxwllf5.streamlit.app/
-- Fill in the input form and hit submit!
-![image](https://github.com/SimonLim03/Flight-Fare-Prediction-App/assets/150989115/fd3c49b7-088a-4dba-846a-038d784f1ae5)
+- Clone the master branch from the github repo or download a zip folder:  https://github.com/SimonLim03/Sales-Revenue-Prediction-App.git
+- Navigate to the root directory of the project in your terminal
+- Run the following commands:
+    - `docker build -t my_fast_api .`
+    - `docker run -p 8000:80 my_fast_api`
+    
+- There are two API endpoints for descriptions of the app and running the app.
+- http://localhost:8000/ : Description of the application, including what to expect for input parameters.
+- http://localhost:8000/docs/ : Runnining the application
+- /sales/stores/items/ : Predictive Model (predict the sales revenue for a given item in a specific store at a given date)
+- /sales/national/ : Forecasting Model (forecast the total sales revenue across all stores and items for the next 7 days)
 
 
 ## Project Structure
