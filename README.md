@@ -4,10 +4,12 @@
 Name: Simon Lim
 
 ## Description
-This application is a machine learning product, which can predict the expected flight fare for different airport trips. 
-In particular, this project split the travel airfare into 4 different fares, including minimum, median, modal and mean of airfare
-Together, these metrics aim to provide a comprehensive overview of potential fares to users.
-To enable model’s access to users, Docker and Streamlit were used for model deployment, enabling users to use the models as a application.
+This application involves two machine learning models that were established for business purposes.
+One model is a predictive model using a Machine Learning algorithm to accurately predict the sales revenue for a given item in a specific store at a given date.
+The other is a forecasting model using a time-series analysis that can forecast the total sales revenue across all stores and items for the next 7 days.
+The models have been deployed using Fastapi, Docker and Heroku, which enable modle's access to users online anytime. 
+
+![image](https://github.com/SimonLim03/Sales-Revenue-Prediction-App/assets/150989115/02d39b0d-4080-41c4-afea-ac6e15b2998e)
 
 
 ## How to Run the Program
@@ -24,10 +26,6 @@ Execute the following steps to run the app:
 
 <p>
 /notebooks: All the notebooks containing codes, preparation, EDA and precedures. 
-</p>
-
-<p>
-/raw: Initial datasets.
 </p>
 
 <p>
