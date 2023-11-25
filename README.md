@@ -46,7 +46,7 @@ Execute the following steps to run the app:
 
 ## Project Structure
 <p>
-/models: This folder contains model artefacts that were used to predict travel fares.
+/models: This folder contains model artefacts that were used to predict sales revenue.
 </p>
 
 <p>
